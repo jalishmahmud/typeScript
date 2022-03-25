@@ -19,6 +19,7 @@ const substrack = (number1: number, number2: number): number => {
   return number1 - number2;
 };
 // Array<T> Generic
+const arr2: Array<number | string> = [123, 44, "Jalish"];
 const arr: number[] = [12, 34, 444, 44];
 const arr1: string[] = ["jalish", "danish"];
 // type
