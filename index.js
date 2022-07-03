@@ -36,3 +36,4 @@ var Colors;
 })(Colors || (Colors = {}));
 console.log(Colors.color1);
 console.log(Colors.color2);
+// test changes
