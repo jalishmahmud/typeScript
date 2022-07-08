@@ -1,19 +1,11 @@
-"use strict";
-class Player {
-    constructor(n, a, c) {
-        this.name = n;
-        this.age = a;
-        this.country = c;
-    }
-    play() {
-        console.log(`${this.name} form ${this.country} is playing`);
-    }
-}
+import { Player } from './classes/Player.js';
 const mashrafi = new Player('Mashrafi', 40, "Bangladesh");
 const shakib = new Player("Shakib", 30, "Bangladesh");
 const players = [];
 players.push(shakib);
 players.push(mashrafi);
+console.log(shakib.country);
+console.log(shakib.age);
 // class access modifiers
 class Student {
     /*  name: string;
