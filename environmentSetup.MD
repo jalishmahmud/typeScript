@@ -17,3 +17,8 @@ In tsconfig.json file we can change the directory
 Then we can run file using only “tsc” command
 
 We can also on -w flag like that way “tsc -w” to start auto watch  mode  
+
+
+    /* changes to support module system */
+    "target": "es6",
+    "module": "es2015",   
